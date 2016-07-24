@@ -1,0 +1,16 @@
+Package: spatialjoin
+Type: Package
+Title: Joins attributes from one feature to another based on the spatial relationship
+Version: 0.1.0
+Authors@R: c(
+  person("Daniel", "Emaasit", role = c("aut", "cre"), email = "daniel.emaasit@gmail.com"),
+  person("Daniel", "Emaasit", role = c("aut", "cph"), email = "daniel.emaasit@gmail.com")
+  )
+Maintainer: Daniel Emaasit <daniel.emaasit@gmail.com>
+Description: Provides one function for joining attributes from one feature to another based on the spatial relationship. The target features and the joined attributes from the join features are written to the output feature class.
+License: GPL-3
+Imports: sp
+RoxygenNote: 5.0.1
+Suggests: testthat
+Encoding: UTF-8
+LazyData: true
